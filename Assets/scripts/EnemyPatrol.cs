@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemyPatrol : MonoBehaviour
@@ -13,12 +14,12 @@ public class EnemyPatrol : MonoBehaviour
     private bool isChasing;
     [SerializeField] private float chaseDistance;
 
-
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if(isChasing)
         {   
+            
             //enemy is on right of player so move enemy left
             if(transform.position.x > playerTransform.position.x)
             {
@@ -59,6 +60,7 @@ public class EnemyPatrol : MonoBehaviour
 
     private void flipMoveEnemy()
     {
+
         if(patrolDestination==0)
         {
             transform.position= Vector2.MoveTowards(transform.position, patrolPoints[0].position, speed*Time.deltaTime);
