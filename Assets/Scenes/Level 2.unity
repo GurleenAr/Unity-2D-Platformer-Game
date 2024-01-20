@@ -69848,8 +69848,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.04879999, y: 0.21675003, z: 0}
-    m_Extent: {x: 0.534, y: 1.90985, z: 0}
+    m_Center: {x: -0.04934998, y: 0.21740001, z: 0}
+    m_Extent: {x: 0.53525, y: 1.9096999, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -71460,7 +71460,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &1646694605
 AudioSource:
   m_ObjectHideFlags: 0
@@ -71471,8 +71471,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 90eae78e8ce85a849b5b0ca11b2de641, type: 3}
-  m_Resource: {fileID: 8300000, guid: 90eae78e8ce85a849b5b0ca11b2de641, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a6ac3648f8a70465e813a59a78556462, type: 3}
+  m_Resource: {fileID: 8300000, guid: a6ac3648f8a70465e813a59a78556462, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
