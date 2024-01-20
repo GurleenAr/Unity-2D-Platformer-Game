@@ -12,6 +12,16 @@ public class ItemCollector : MonoBehaviour
     [SerializeField] private AudioSource collectItemSound;
     private void Start(){
         collectedItems=PlayerPrefs.GetInt("Items Collected");
+        if(SceneManager.GetActiveScene().buildIndex==1){
+            Debug.Log(SceneManager.GetActiveScene().buildIndex);
+            PlayerPrefs.SetInt("Items Collected", 0);
+        }
+        if(SceneManager.GetActiveScene().buildIndex>1){
+            Debug.Log(SceneManager.GetActiveScene().buildIndex);
+            collectedItems=PlayerPrefs.GetInt("Items Collected");
+            strawberryText.text = "Items Collected:" + collectedItems;
+        }
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

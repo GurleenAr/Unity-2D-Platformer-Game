@@ -817,7 +817,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Unamed game
+  m_text: 'Little Adventures
 
 '
   m_isRightToLeft: 0
