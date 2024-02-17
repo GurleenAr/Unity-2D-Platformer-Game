@@ -8,7 +8,7 @@ Within the game the player must reach the checkpoint at the end of each level to
 The game currently includes the following:
 - 2 levels
 - Moving platforms, and traps
-- Moving Enemy which follows player withn a certain range
+- Moving Enemy which follows player within a certain range
 - Checkpoint at the end of each level
 - Collectable items on each levels
 - Background music and sound effects
