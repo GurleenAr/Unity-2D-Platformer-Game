@@ -14,6 +14,9 @@ The game currently includes the following:
 - Background music and sound effects
 - Lighting
 
+Playthrough:
+
+[![Little Adventures Playthrough](https://img.youtube.com/vi/AmlTzwnJ3p8/0.jpg)](https://www.youtube.com/watch?v=AmlTzwnJ3p8)
 
 ScreenShots of the game:
 ![image](https://github.com/GurleenAr/Unity-2D-Platformer-Game/assets/156767003/0b2953d0-270c-4e30-b093-532df9772e13)
